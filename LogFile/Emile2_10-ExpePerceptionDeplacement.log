@@ -1,0 +1,148 @@
+Scenario - PerceptionDeplacement
+Logfile written - 10/02/2020 09:46:47
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Emile2_10	1	Response	4	47511	47345	1
+Emile2_10	2	Response	8	54542	6751	1
+Emile2_10	3	Response	8	101719	46934	1
+Emile2_10	4	Response	6	108797	6720	1
+Emile2_10	5	Response	2	155682	46610	1
+Emile2_10	6	Response	7	164048	8018	1
+Emile2_10	7	Response	6	211267	46910	1
+Emile2_10	8	Response	6	226080	14598	1
+Emile2_10	9	Response	8	273350	47047	1
+Emile2_10	10	Response	7	297221	23626	1
+Emile2_10	11	Response	4	344367	46793	1
+Emile2_10	12	Response	7	362928	18228	1
+Emile2_10	13	Response	6	409585	46401	1
+Emile2_10	14	Response	5	415802	5992	1
+Emile2_10	15	Response	4	463283	47146	1
+Emile2_10	16	Response	6	475634	12037	1
+Emile2_10	17	Response	2	538940	63021	1
+Emile2_10	18	Response	3	550294	11097	1
+Emile2_10	19	Response	8	596890	46369	1
+Emile2_10	20	Response	6	602783	5637	1
+Emile2_10	21	Response	4	651806	48664	1
+Emile2_10	22	Response	5	665490	13391	1
+Emile2_10	23	Response	6	712460	46707	1
+Emile2_10	24	Response	8	718348	5636	1
+Emile2_10	25	Response	8	765056	46349	1
+Emile2_10	26	Response	5	772253	6919	1
+Emile2_10	27	Response	4	819394	46900	1
+Emile2_10	28	Response	8	826655	7035	1
+Emile2_10	29	Response	2	873670	46723	1
+Emile2_10	30	Response	7	892945	19040	1
+Emile2_10	31	Response	6	940271	47049	1
+Emile2_10	32	Response	6	948064	7550	1
+Emile2_10	33	Response	4	995407	47066	1
+Emile2_10	34	Response	6	1005912	10278	1
+Emile2_10	35	Response	8	1051443	45319	1
+Emile2_10	36	Response	8	1055405	3654	1
+Emile2_10	37	Response	8	1111615	55868	1
+Emile2_10	38	Response	7	1123631	11766	1
+Emile2_10	39	Response	2	1169953	46098	1
+Emile2_10	40	Response	8	1178025	7877	1
+Emile2_10	41	Response	8	1224903	46596	1
+Emile2_10	42	Response	7	1242435	17335	1
+Emile2_10	43	Response	6	1289419	46667	1
+Emile2_10	44	Response	9	1294845	5134	1
+Emile2_10	45	Response	4	1341002	45797	1
+Emile2_10	46	Response	5	1348079	6746	1
+Emile2_10	47	Response	6	1391656	43329	1
+Emile2_10	48	Response	7	1409556	17602	1
+Emile2_10	49	Response	4	1455558	45785	1
+Emile2_10	50	Response	4	1460486	4587	1
+Emile2_10	51	Response	6	1504790	44061	1
+Emile2_10	52	Response	8	1511334	6311	1
+Emile2_10	53	Response	8	1558473	46793	1
+Emile2_10	54	Response	7	1566660	7850	1
+Emile2_10	55	Response	4	1613787	46818	1
+Emile2_10	56	Response	7	1618948	4853	1
+Emile2_10	57	Response	6	1667143	47886	1
+Emile2_10	58	Response	6	1673526	6144	1
+Emile2_10	59	Response	8	1719598	45722	1
+Emile2_10	60	Response	8	1732694	12858	1
+Emile2_10	61	Response	2	1777947	44955	1
+Emile2_10	62	Response	8	1785106	6821	1
+Emile2_10	63	Response	4	1847370	61924	1
+Emile2_10	64	Response	3	1862187	14462	1
+Emile2_10	65	Response	2	1920910	58364	1
+Emile2_10	66	Response	2	1927952	6791	1
+Emile2_10	67	Response	6	1974752	46597	1
+Emile2_10	68	Response	8	1981744	6796	1
+Emile2_10	69	Response	4	2026805	44864	1
+Emile2_10	70	Response	8	2032222	5153	1
+Emile2_10	71	Response	8	2076671	44107	1
+Emile2_10	72	Response	8	2083461	6436	1
+Emile2_10	73	Response	4	2166224	82538	1
+Emile2_10	74	Response	2	2176122	9674	1
+Emile2_10	75	Response	4	2222980	46542	1
+Emile2_10	76	Response	8	2230390	7159	1
+Emile2_10	77	Response	6	2276015	45291	1
+Emile2_10	78	Response	8	2281393	5042	1
+Emile2_10	79	Response	8	2332160	50480	1
+Emile2_10	80	Response	3	2342376	9906	1
+Emile2_10	81	Response	2	2393101	50474	1
+Emile2_10	82	Response	2	2400116	6700	1
+Emile2_10	83	Response	6	2447549	47138	1
+Emile2_10	84	Response	8	2456373	8504	1
+Emile2_10	85	Response	4	2501388	44693	1
+Emile2_10	86	Response	9	2507374	5718	1
+Emile2_10	87	Response	2	2557995	50345	1
+Emile2_10	88	Response	3	2571042	12769	1
+Emile2_10	89	Response	2	2617310	46049	1
+Emile2_10	90	Response	5	2626310	8755	1
+Emile2_10	91	Response	8	2673346	46799	1
+Emile2_10	92	Response	6	2683279	9607	1
+Emile2_10	93	Response	2	2733970	50472	1
+Emile2_10	94	Response	3	2744666	10380	1
+Emile2_10	95	Response	4	2790738	45794	1
+Emile2_10	96	Response	7	2802673	11602	1
+Emile2_10	97	Response	2	2849527	46634	1
+Emile2_10	98	Response	3	2861431	11578	1
+Emile2_10	99	Response	4	2908578	46902	1
+Emile2_10	100	Response	7	2916387	7585	1
+Emile2_10	101	Response	8	2963474	46846	1
+Emile2_10	102	Response	6	2981441	17688	1
+Emile2_10	103	Response	6	3037190	55452	1
+Emile2_10	104	Response	3	3051406	13884	1
+Emile2_10	105	Response	4	3103727	52050	1
+Emile2_10	106	Response	4	3112527	8562	1
+Emile2_10	107	Response	2	3157759	44969	1
+Emile2_10	108	Response	4	3166458	8374	1
+Emile2_10	109	Response	8	3211902	45159	1
+Emile2_10	110	Response	6	3225025	12821	1
+Emile2_10	111	Response	6	3272033	46674	1
+Emile2_10	112	Response	7	3287410	15091	1
+Emile2_10	113	Response	4	3340041	52403	1
+Emile2_10	114	Response	3	3346967	6708	1
+Emile2_10	115	Response	4	3393528	46275	1
+Emile2_10	116	Response	6	3404682	10803	1
+Emile2_10	117	Response	8	3451367	46331	1
+Emile2_10	118	Response	3	3460483	8821	1
+Emile2_10	119	Response	6	3507714	46893	1
+Emile2_10	120	Response	3	3520194	12247	1
+Emile2_10	121	Response	8	3567030	46595	1
+Emile2_10	122	Response	5	3577237	10008	1
+Emile2_10	123	Response	6	3622726	45173	1
+Emile2_10	124	Response	8	3629446	6433	1
+Emile2_10	125	Response	4	3674557	44883	1
+Emile2_10	126	Response	8	3687836	13034	1
+Emile2_10	127	Response	4	3741352	53229	1
+Emile2_10	128	Response	3	3749510	7934	1
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionDeplacement.sce",
+   "subject": "Emile2_10",
+   "timestamp": "2020/10/02 07:40:27 GMT"
+}

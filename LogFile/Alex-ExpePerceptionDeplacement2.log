@@ -1,0 +1,201 @@
+Scenario - PerceptionDeplacement
+Logfile written - 10/06/2020 16:52:12
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Alex	1	Response	4	41348	41182	1
+Alex	2	Response	9	52405	10775	1
+Alex	3	Response	4	101274	48654	1
+Alex	4	Response	9	121013	19435	1
+Alex	5	Response	2	172787	51560	1
+Alex	6	Response	6	204667	31651	1
+Alex	7	Response	6	254309	49321	1
+Alex	8	Response	9	274014	19403	1
+Alex	9	Response	4	325554	51293	1
+Alex	10	Response	9	337807	11924	1
+Alex	11	Response	6	404117	66078	1
+Alex	12	Response	9	426937	22622	1
+Alex	13	Response	6	726573	299278	1
+Alex	14	Response	9	738759	11892	1
+Alex	15	Response	2	799282	60258	1
+Alex	16	Response	9	808466	8829	1
+Alex	17	Response	2	898770	89974	1
+Alex	18	Response	5	904971	5920	1
+Alex	19	Response	6	966042	60830	1
+Alex	20	Response	9	977455	11129	1
+Alex	21	Response	2	1041928	64113	1
+Alex	22	Response	5	1051659	9400	1
+Alex	23	Response	6	1133371	81454	1
+Alex	24	Response	9	1146928	13248	1
+Alex	25	Response	6	1276670	129502	1
+Alex	26	Response	5	1293919	17031	1
+Alex	27	Response	6	1394000	99794	1
+Alex	28	Response	8	1402140	7854	1
+Alex	29	Response	2	1477760	75315	1
+Alex	30	Response	9	1496804	18757	1
+Alex	31	Response	4	1537272	40242	1
+Alex	32	Response	8	1553735	16241	1
+Alex	33	Response	2	1647275	93294	1
+Alex	34	Response	9	1679863	32298	1
+Alex	35	Response	2	1754788	74584	1
+Alex	36	Response	9	1772465	17326	1
+Alex	37	Response	2	1886487	113697	1
+Alex	38	Response	8	1900314	13623	1
+Alex	39	Response	6	2011964	111452	1
+Alex	40	Response	8	2023102	10854	1
+Alex	41	Response	4	2116486	93081	1
+Alex	42	Response	8	2127948	11124	1
+Alex	43	Response	2	2187708	59561	1
+Alex	44	Response	9	2220800	32871	1
+Alex	45	Response	6	2370717	149650	1
+Alex	46	Response	9	2378358	7422	1
+Alex	47	Response	6	2446040	67444	1
+Alex	48	Response	9	2455929	9558	1
+Alex	49	Response	4	2519559	63364	1
+Alex	50	Response	9	2531012	11206	1
+Alex	51	Response	8	2605857	74561	1
+Alex	52	Response	6	2619935	13870	1
+Alex	53	Response	6	2664466	44247	1
+Alex	54	Response	9	2674492	9812	1
+Alex	55	Response	4	2754784	79946	1
+Alex	56	Response	9	2777787	22685	1
+Alex	57	Response	2	2824120	46038	1
+Alex	58	Response	9	2835272	10897	1
+Alex	59	Response	4	2938976	103444	1
+Alex	60	Response	9	2946843	7568	1
+Alex	61	Response	6	2987912	40811	1
+Alex	62	Response	4	2994115	5882	1
+Alex	63	Response	9	2995531	1137	1
+Alex	63	Response	2	3090907	96514	1
+Alex	64	Response	8	3102483	11340	1
+Alex	65	Response	4	3152220	49421	1
+Alex	66	Response	9	3169086	16663	1
+Alex	67	Response	6	3223524	54117	1
+Alex	68	Response	9	3260409	36549	1
+Alex	69	Response	4	3381810	121149	1
+Alex	70	Response	8	3400133	18077	1
+Alex	71	Response	4	3447009	46636	1
+Alex	72	Response	9	3470904	23572	1
+Alex	73	Response	6	3539758	68613	1
+Alex	74	Response	9	3548305	8220	1
+Alex	75	Response	4	3611730	63153	1
+Alex	76	Response	8	3626964	14941	1
+Alex	77	Response	6	3683506	56330	1
+Alex	78	Response	9	3691915	8121	1
+Alex	79	Response	6	3777108	84989	1
+Alex	80	Response	9	3783447	6069	1
+Alex	81	Response	4	3825588	41882	1
+Alex	82	Response	9	3831981	6144	1
+Alex	83	Response	2	3874785	42455	1
+Alex	84	Response	9	3883119	7992	1
+Alex	85	Response	8	3940854	57401	1
+Alex	86	Response	9	3947766	6696	1
+Alex	87	Response	4	4006534	58471	1
+Alex	88	Response	9	4013676	6831	1
+Alex	89	Response	2	4058532	44526	1
+Alex	90	Response	9	4063952	5151	1
+Alex	91	Response	2	4138387	74092	1
+Alex	92	Response	9	4143996	5265	1
+Alex	93	Response	2	4265920	121694	1
+Alex	94	Response	8	4274666	8546	1
+Alex	95	Response	4	4343535	68590	1
+Alex	96	Response	8	4351499	7614	1
+Alex	97	Response	2	4396319	44607	1
+Alex	98	Response	9	4402457	5784	1
+Alex	99	Response	2	4453186	50518	1
+Alex	100	Response	9	4457982	4525	1
+Alex	101	Response	6	4516079	57794	1
+Alex	102	Response	9	4524541	8139	1
+Alex	103	Response	6	4605759	80865	1
+Alex	104	Response	9	4612373	6383	1
+Alex	105	Response	2	4672140	59488	1
+Alex	106	Response	9	4676459	4027	1
+Alex	107	Response	8	4726816	50053	1
+Alex	108	Response	9	4733001	5949	1
+Alex	109	Response	2	4816526	83313	1
+Alex	110	Response	9	4821230	4423	1
+Alex	111	Response	6	4926706	105237	1
+Alex	112	Response	9	4933230	6185	1
+Alex	113	Response	6	4993421	59883	1
+Alex	114	Response	9	5009099	15446	1
+Alex	115	Response	4	5053855	44548	1
+Alex	116	Response	9	5057443	3342	1
+Alex	117	Response	4	5138147	80383	1
+Alex	118	Response	9	5149940	11579	1
+Alex	119	Response	2	5197883	47699	1
+Alex	120	Response	9	5218361	20219	1
+Alex	121	Response	6	5274624	56000	1
+Alex	122	Response	9	5284027	9119	1
+Alex	123	Response	6	5342521	58287	1
+Alex	124	Response	9	5366348	23499	1
+Alex	125	Response	2	5434103	67441	1
+Alex	126	Response	9	5438648	4212	1
+Alex	127	Response	6	5479511	40579	1
+Alex	128	Response	8	5506313	26583	1
+Alex	129	Response	2	5573968	67428	1
+Alex	130	Response	9	5579774	5460	1
+Alex	131	Response	2	5626156	46180	1
+Alex	132	Response	9	5630014	3578	1
+Alex	133	Response	6	5693483	63217	1
+Alex	134	Response	9	5698760	5050	1
+Alex	135	Response	6	5812862	113823	1
+Alex	136	Response	9	5817781	4674	1
+Alex	137	Response	4	5877923	59820	1
+Alex	138	Response	5	5886089	7872	1
+Alex	139	Response	6	5926598	40221	1
+Alex	140	Response	5	5935376	8535	1
+Alex	141	Response	4	5978301	42635	1
+Alex	142	Response	9	5982844	4214	1
+Alex	143	Response	6	6027339	44214	1
+Alex	144	Response	9	6030855	3268	1
+Alex	145	Response	4	6081102	50019	1
+Alex	146	Response	9	6090321	8947	1
+Alex	147	Response	2	6136511	45979	1
+Alex	148	Response	9	6141065	4240	1
+Alex	149	Response	2	6203732	62411	1
+Alex	150	Response	9	6207549	3616	1
+Alex	151	Response	4	6263309	55546	1
+Alex	152	Response	9	6269675	6127	1
+Alex	153	Response	2	6311129	41253	1
+Alex	154	Response	9	6314676	3336	1
+Alex	155	Response	6	6358957	43954	1
+Alex	156	Response	8	6369382	10084	1
+Alex	157	Response	2	6434214	64591	1
+Alex	158	Response	9	6439428	4862	1
+Alex	159	Response	2	6514808	75080	1
+Alex	160	Response	9	6518896	3734	1
+Alex	161	Response	6	6566838	47679	1
+Alex	162	Response	9	6574235	7118	1
+Alex	163	Response	4	6616646	42202	1
+Alex	164	Response	8	6626513	9606	1
+Alex	165	Response	4	6679005	52273	1
+Alex	166	Response	9	6692942	13589	1
+Alex	167	Response	2	6771276	78102	1
+Alex	168	Response	9	6774568	2962	1
+Alex	169	Response	6	6815690	40920	1
+Alex	170	Response	9	6820329	4428	1
+Alex	171	Response	2	6868381	47818	1
+Alex	172	Response	9	6871035	2347	1
+Alex	173	Response	6	6925219	53866	1
+Alex	174	Response	9	6932546	7074	1
+Alex	175	Response	2	6983449	50650	1
+Alex	176	Response	9	6986727	2973	1
+Alex	177	Response	2	7030950	43865	1
+Alex	178	Response	9	7034588	3375	1
+Alex	179	Response	2	7085988	51111	1
+Alex	180	Response	9	7090465	4133	1
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionDeplacement.sce",
+   "subject": "Alex",
+   "timestamp": "2020/10/06 14:40:20 GMT"
+}

@@ -1,0 +1,20 @@
+Scenario - Scenario 1
+Logfile written - 07/09/2020 16:17:04
+
+Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{C48B28E4-40CB-4F8E-B952-734121844C9C}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ScenarioTest.sce",
+   "subject": "",
+   "timestamp": "2020/07/09 14:17:01 GMT"
+}

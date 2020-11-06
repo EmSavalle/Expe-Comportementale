@@ -1,0 +1,202 @@
+Scenario - PerceptionDeplacement
+Logfile written - 10/05/2020 16:14:28
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Emile5_10Test2	1	Response	6	42316	42150	1
+Emile5_10Test2	2	Response	7	49580	6951	1
+Emile5_10Test2	3	Response	4	89085	39295	1
+Emile5_10Test2	4	Response	9	94343	4921	1
+Emile5_10Test2	5	Response	2	141393	46809	1
+Emile5_10Test2	6	Response	3	159119	17409	1
+Emile5_10Test2	7	Response	6	198717	39356	1
+Emile5_10Test2	8	Response	7	204797	5804	1
+Emile5_10Test2	9	Response	4	247657	42502	1
+Emile5_10Test2	10	Response	7	256677	8726	1
+Emile5_10Test2	11	Response	8	303917	46975	1
+Emile5_10Test2	12	Response	3	317624	13389	1
+Emile5_10Test2	13	Response	6	362163	44273	1
+Emile5_10Test2	14	Response	7	374597	12080	1
+Emile5_10Test2	15	Response	2	416438	41597	1
+Emile5_10Test2	16	Response	4	424081	7444	1
+Emile5_10Test2	17	Response	8	466920	42623	1
+Emile5_10Test2	18	Response	5	479116	11857	1
+Emile5_10Test2	19	Response	8	525568	46152	1
+Emile5_10Test2	20	Response	3	535758	9883	1
+Emile5_10Test2	21	Response	6	581188	45154	1
+Emile5_10Test2	22	Response	3	588283	6789	1
+Emile5_10Test2	23	Response	2	628784	40296	1
+Emile5_10Test2	24	Response	3	643790	14671	1
+Emile5_10Test2	25	Response	6	683952	39846	1
+Emile5_10Test2	26	Response	8	689862	5625	1
+Emile5_10Test2	27	Response	2	731513	41447	1
+Emile5_10Test2	28	Response	4	742566	10703	1
+Emile5_10Test2	29	Response	8	786359	43506	1
+Emile5_10Test2	30	Response	6	792753	6104	1
+Emile5_10Test2	31	Response	8	834640	41663	1
+Emile5_10Test2	32	Response	6	843305	8366	1
+Emile5_10Test2	33	Response	6	883558	39959	1
+Emile5_10Test2	34	Response	8	894592	10695	1
+Emile5_10Test2	35	Response	2	933346	38459	1
+Emile5_10Test2	35	Response	5	933348	38461	1
+Emile5_10Test2	36	Response	5	941658	7971	1
+Emile5_10Test2	37	Response	6	979747	37734	1
+Emile5_10Test2	38	Response	7	989887	9907	1
+Emile5_10Test2	39	Response	2	1030699	40561	1
+Emile5_10Test2	40	Response	6	1039743	8807	1
+Emile5_10Test2	41	Response	8	1088034	47940	1
+Emile5_10Test2	42	Response	5	1098206	9820	1
+Emile5_10Test2	43	Response	4	1140909	42365	1
+Emile5_10Test2	44	Response	6	1154841	13668	1
+Emile5_10Test2	45	Response	6	1192821	37660	1
+Emile5_10Test2	46	Response	2	1203298	10170	1
+Emile5_10Test2	47	Response	8	1245093	41474	1
+Emile5_10Test2	48	Response	5	1255769	10354	1
+Emile5_10Test2	49	Response	6	1305530	49457	1
+Emile5_10Test2	50	Response	3	1316346	10483	1
+Emile5_10Test2	51	Response	4	1360433	43746	1
+Emile5_10Test2	52	Response	5	1372031	11382	1
+Emile5_10Test2	53	Response	2	1427131	54826	1
+Emile5_10Test2	54	Response	2	1439094	11670	1
+Emile5_10Test2	55	Response	8	1482741	43327	1
+Emile5_10Test2	56	Response	7	1493576	10534	1
+Emile5_10Test2	57	Response	2	1531465	37598	1
+Emile5_10Test2	58	Response	7	1552896	21229	1
+Emile5_10Test2	59	Response	4	1594935	41787	1
+Emile5_10Test2	60	Response	8	1609168	13891	1
+Emile5_10Test2	61	Response	8	1649708	40276	1
+Emile5_10Test2	62	Response	6	1661148	11084	1
+Emile5_10Test2	63	Response	4	1700530	39143	1
+Emile5_10Test2	64	Response	7	1710451	9598	1
+Emile5_10Test2	65	Response	8	1750335	39658	1
+Emile5_10Test2	66	Response	7	1765572	14929	1
+Emile5_10Test2	67	Response	6	1806451	40655	1
+Emile5_10Test2	68	Response	7	1817484	10723	1
+Emile5_10Test2	69	Response	2	1864312	46561	1
+Emile5_10Test2	70	Response	2	1874366	9822	1
+Emile5_10Test2	71	Response	4	1916897	42195	1
+Emile5_10Test2	72	Response	7	1929782	12618	1
+Emile5_10Test2	73	Response	2	1969470	39484	1
+Emile5_10Test2	74	Response	6	1977245	7460	1
+Emile5_10Test2	75	Response	6	2024228	46783	1
+Emile5_10Test2	76	Response	3	2034973	10402	1
+Emile5_10Test2	77	Response	8	2084993	49765	1
+Emile5_10Test2	78	Response	2	2097550	12198	1
+Emile5_10Test2	79	Response	2	2151311	53470	1
+Emile5_10Test2	80	Response	2	2159979	8352	1
+Emile5_10Test2	81	Response	6	2198269	37983	1
+Emile5_10Test2	82	Response	5	2208600	10014	1
+Emile5_10Test2	83	Response	2	2247550	38639	1
+Emile5_10Test2	84	Response	7	2258588	10712	1
+Emile5_10Test2	85	Response	8	2298917	40050	1
+Emile5_10Test2	86	Response	6	2310297	11132	1
+Emile5_10Test2	87	Response	2	2357844	47189	1
+Emile5_10Test2	88	Response	2	2368198	10084	1
+Emile5_10Test2	89	Response	4	2408289	39851	1
+Emile5_10Test2	90	Response	8	2415396	6826	1
+Emile5_10Test2	91	Response	2	2460023	44292	1
+Emile5_10Test2	92	Response	2	2468285	7926	1
+Emile5_10Test2	93	Response	4	2509920	41402	1
+Emile5_10Test2	94	Response	5	2526100	15952	1
+Emile5_10Test2	95	Response	6	2566067	39766	1
+Emile5_10Test2	96	Response	7	2573998	7731	1
+Emile5_10Test2	97	Response	2	2612121	37862	1
+Emile5_10Test2	98	Response	9	2619745	7353	1
+Emile5_10Test2	99	Response	4	2659933	39880	1
+Emile5_10Test2	100	Response	7	2669373	9188	1
+Emile5_10Test2	101	Response	8	2710313	40637	1
+Emile5_10Test2	102	Response	5	2723256	12616	1
+Emile5_10Test2	103	Response	4	2764170	40707	1
+Emile5_10Test2	104	Response	7	2773906	9479	1
+Emile5_10Test2	105	Response	2	2813755	39503	1
+Emile5_10Test2	106	Response	8	2822159	8108	1
+Emile5_10Test2	107	Response	8	2863055	40679	1
+Emile5_10Test2	108	Response	8	2869991	6650	1
+Emile5_10Test2	109	Response	2	2905759	35424	1
+Emile5_10Test2	109	Response	2	2912947	42613	1
+Emile5_10Test2	110	Response	6	2920670	7373	1
+Emile5_10Test2	111	Response	8	2959847	38889	1
+Emile5_10Test2	112	Response	7	2967754	7664	1
+Emile5_10Test2	113	Response	6	3008098	40015	1
+Emile5_10Test2	114	Response	8	3014866	6485	1
+Emile5_10Test2	115	Response	4	3053030	37821	1
+Emile5_10Test2	116	Response	8	3070622	17279	1
+Emile5_10Test2	117	Response	8	3113616	42789	1
+Emile5_10Test2	118	Response	2	3123770	9814	1
+Emile5_10Test2	119	Response	6	3163625	39511	1
+Emile5_10Test2	120	Response	7	3185025	21112	1
+Emile5_10Test2	121	Response	8	3226497	41270	1
+Emile5_10Test2	122	Response	6	3243130	16438	1
+Emile5_10Test2	123	Response	6	3283111	39768	1
+Emile5_10Test2	124	Response	8	3290890	7581	1
+Emile5_10Test2	125	Response	2	3330139	39003	1
+Emile5_10Test2	126	Response	8	3338788	8354	1
+Emile5_10Test2	127	Response	8	3382446	43353	1
+Emile5_10Test2	128	Response	3	3392803	10081	1
+Emile5_10Test2	129	Response	6	3433156	40110	1
+Emile5_10Test2	130	Response	8	3440940	7429	1
+Emile5_10Test2	131	Response	2	3480173	39001	1
+Emile5_10Test2	132	Response	8	3487545	7075	1
+Emile5_10Test2	133	Response	6	3527973	40175	1
+Emile5_10Test2	134	Response	7	3534894	6632	1
+Emile5_10Test2	135	Response	2	3581335	46245	1
+Emile5_10Test2	136	Response	2	3588909	7360	1
+Emile5_10Test2	137	Response	4	3629790	40581	1
+Emile5_10Test2	138	Response	7	3640945	10938	1
+Emile5_10Test2	139	Response	2	3683295	42131	1
+Emile5_10Test2	140	Response	4	3696045	12418	1
+Emile5_10Test2	141	Response	4	3738972	42690	1
+Emile5_10Test2	142	Response	7	3749241	9996	1
+Emile5_10Test2	143	Response	8	3793318	43749	1
+Emile5_10Test2	144	Response	5	3807190	13659	1
+Emile5_10Test2	145	Response	4	3847489	39970	1
+Emile5_10Test2	146	Response	8	3856048	8231	1
+Emile5_10Test2	147	Response	2	3893301	36991	1
+Emile5_10Test2	148	Response	5	3902705	9094	1
+Emile5_10Test2	149	Response	6	3947381	44445	1
+Emile5_10Test2	150	Response	3	3956893	9163	1
+Emile5_10Test2	151	Response	4	3997527	40305	1
+Emile5_10Test2	152	Response	7	4008497	10644	1
+Emile5_10Test2	153	Response	2	4047943	39099	1
+Emile5_10Test2	154	Response	5	4054965	6822	1
+Emile5_10Test2	155	Response	8	4103770	48467	1
+Emile5_10Test2	156	Response	4	4119985	15891	1
+Emile5_10Test2	157	Response	2	4161256	41009	1
+Emile5_10Test2	158	Response	8	4170591	9047	1
+Emile5_10Test2	159	Response	6	4210522	39653	1
+Emile5_10Test2	160	Response	9	4219896	9062	1
+Emile5_10Test2	161	Response	6	4265452	45292	1
+Emile5_10Test2	162	Response	3	4275181	9394	1
+Emile5_10Test2	163	Response	6	4319902	44457	1
+Emile5_10Test2	164	Response	5	4338458	18219	1
+Emile5_10Test2	165	Response	8	4399438	60714	1
+Emile5_10Test2	166	Response	2	4407024	7353	1
+Emile5_10Test2	167	Response	6	4448392	41062	1
+Emile5_10Test2	168	Response	8	4465255	16628	1
+Emile5_10Test2	169	Response	8	4512849	47236	1
+Emile5_10Test2	170	Response	3	4522001	8930	1
+Emile5_10Test2	171	Response	8	4565938	43707	1
+Emile5_10Test2	172	Response	3	4575210	9018	1
+Emile5_10Test2	173	Response	6	4618360	42843	1
+Emile5_10Test2	174	Response	6	4630373	11727	1
+Emile5_10Test2	175	Response	4	4670812	40176	1
+Emile5_10Test2	176	Response	8	4680645	9544	1
+Emile5_10Test2	177	Response	6	4721896	40970	1
+Emile5_10Test2	178	Response	8	4731456	9234	1
+Emile5_10Test2	179	Response	4	4769742	38027	1
+Emile5_10Test2	180	Response	8	4781675	11660	1
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionDeplacement.sce",
+   "subject": "Emile5_10Test2",
+   "timestamp": "2020/10/05 14:06:27 GMT"
+}

@@ -1,0 +1,75 @@
+Scenario - PerceptionDeplacement
+Logfile written - 10/13/2020 09:51:39
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Emile13_10	1	Response	4	46216	46050	1
+Emile13_10	2	Response	7	60299	13840	1
+Emile13_10	115	Response	10	79391	127	1
+Emile13_10	117	Response	6	121797	42199	1
+Emile13_10	118	Response	7	130768	8708	1
+Emile13_10	234	Response	10	150321	118	1
+Emile13_10	236	Response	6	193575	43040	1
+Emile13_10	237	Response	5	202796	8965	1
+Emile13_10	369	Response	10	225081	110	1
+Emile13_10	371	Response	2	280028	54725	1
+Emile13_10	372	Response	4	290030	9775	1
+Emile13_10	479	Response	10	307921	22	1
+Emile13_10	481	Response	8	351764	43533	1
+Emile13_10	482	Response	4	365034	13007	1
+Emile13_10	689	Response	10	399761	109	1
+Emile13_10	691	Response	6	444601	44616	1
+Emile13_10	692	Response	6	448789	3844	1
+Emile13_10	821	Response	10	470571	147	1
+Emile13_10	823	Response	4	528439	57683	1
+Emile13_10	824	Response	2	534473	5767	1
+Emile13_10	885	Response	10	544762	69	1
+Emile13_10	887	Response	6	587393	42368	1
+Emile13_10	888	Response	6	598538	10883	1
+Emile13_10	1056	Response	10	626772	151	1
+Emile13_10	1058	Response	4	670143	43189	1
+Emile13_10	1059	Response	9	680842	10425	1
+Emile13_10	1160	Response	10	697891	165	1
+Emile13_10	1162	Response	8	741642	43584	1
+Emile13_10	1163	Response	8	753252	11398	1
+Emile13_10	1275	Response	10	772022	27	1
+Emile13_10	1277	Response	6	818235	45908	1
+Emile13_10	1278	Response	8	827456	9002	1
+Emile13_10	1352	Response	10	839991	56	1
+Emile13_10	1354	Response	4	881324	41056	1
+Emile13_10	1355	Response	8	886181	4616	1
+Emile13_10	1463	Response	10	904283	70	1
+Emile13_10	1465	Response	6	957725	53179	1
+Emile13_10	1466	Response	8	967769	9770	1
+Emile13_10	1561	Response	10	983702	59	1
+Emile13_10	1563	Response	4	1035273	51296	1
+Emile13_10	1564	Response	5	1045082	9483	1
+Emile13_10	1648	Response	10	1059321	77	1
+Emile13_10	1650	Response	6	1107041	47463	1
+Emile13_10	1651	Response	3	1116700	9331	1
+Emile13_10	1756	Response	10	1134382	36	1
+Emile13_10	1758	Response	8	1185743	51064	1
+Emile13_10	1759	Response	2	1199336	13368	1
+Emile13_10	1818	Response	10	1209312	31	1
+Emile13_10	1820	Response	6	1253785	44172	1
+Emile13_10	1821	Response	8	1257312	3237	1
+Emile13_10	1901	Response	10	1270772	45	1
+Emile13_10	1903	Response	2	1324529	53468	1
+Emile13_10	1904	Response	2	1337465	12619	1
+Emile13_10	2026	Response	10	1357853	35	1
+Emile13_10	2028	Quit		1372479	14328	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionDeplacement.sce",
+   "subject": "Emile13_10",
+   "timestamp": "2020/10/13 07:49:19 GMT"
+}

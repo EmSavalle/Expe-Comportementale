@@ -1,0 +1,72 @@
+Reponse 0
+Reponse 0
+Reponse 0
+Reponse 0
+Reponse 0
+Reponse 0
+trial 1
+Position1 4_2
+Position2 8_0
+Mouvement 9
+Reponse 0
+ReactionTime 882
+Fin
+trial 2
+Position1 4_7
+Position2 0_5
+Mouvement 1
+Reponse 0
+ReactionTime 1082
+Fin
+trial 3
+Position1 12_21
+Position2 21_12
+Mouvement 6
+Reponse 0
+ReactionTime 783
+Fin
+trial 4
+Position1 7_4
+Position2 14_0
+Mouvement 9
+Reponse 0
+ReactionTime 733
+Fin
+trial 5
+Position1 14_0
+Position2 8_0
+Mouvement 2
+Reponse 0
+ReactionTime 600
+Fin
+trial 6
+Position1 12_21
+Position2 0_24
+Mouvement 4
+Reponse 0
+ReactionTime 733
+Fin
+trial 7
+Position1 0_14
+Position2 0_24
+Mouvement 8
+Reponse 0
+ReactionTime 1732
+Fin
+trial 8
+Position1 7_12
+Position2 0_14
+Mouvement 4
+Reponse 0
+ReactionTime 2567
+Fin
+trial 9
+Position1 24_0
+Position2 14_0
+Mouvement 2
+Reponse 0
+ReactionTime 2281
+Fin
+Certainty 5
+ReactionTimeCertainty 2266
+trial 10

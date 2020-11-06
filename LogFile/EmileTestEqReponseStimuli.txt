@@ -1,0 +1,7 @@
+trial 1
+6/6 input/expected
+Position1 21_12
+Position2 24_0
+ReactionTime 1271
+Certainty 5
+ReactionTimeCertainty 2788

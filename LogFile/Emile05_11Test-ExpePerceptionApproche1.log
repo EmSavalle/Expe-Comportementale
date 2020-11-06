@@ -1,0 +1,57 @@
+Scenario - PerceptionDeplacement
+Logfile written - 11/05/2020 14:15:24
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Emile05_11Test	1	Response	1	26946	26879	1
+Emile05_11Test	21	Response	1	225462	8397	1
+Emile05_11Test	22	Response	1	236849	9648	1
+Emile05_11Test	29	Response	1	306914	9940	1
+Emile05_11Test	30	Response	1	318877	11745	1
+Emile05_11Test	52	Response	1	533188	4122	1
+Emile05_11Test	53	Response	1	547135	8039	1
+Emile05_11Test	60	Response	1	614506	7340	1
+Emile05_11Test	61	Response	1	625214	8020	1
+Emile05_11Test	82	Response	1	831929	6664	1
+Emile05_11Test	83	Response	1	843012	7675	1
+Emile05_11Test	91	Response	1	914443	1377	1
+Emile05_11Test	92	Response	1	930108	7013	1
+Emile05_11Test	93	Response	1	940879	10625	1
+Emile05_11Test	94	Response	1	949145	7967	1
+Emile05_11Test	94	Response	1	957301	16123	1
+Emile05_11Test	94	Response	1	965032	23854	1
+Emile05_11Test	94	Response	1	984552	43374	1
+Emile05_11Test	96	Response	1	1000929	802	1
+Emile05_11Test	313	Response	2	1071826	95	1
+Emile05_11Test	389	Response	2	1122436	83	1
+Emile05_11Test	515	Response	2	1178960	156	1
+Emile05_11Test	638	Response	2	1236945	24	1
+Emile05_11Test	741	Response	2	1289663	121	1
+Emile05_11Test	826	Response	2	1339234	70	1
+Emile05_11Test	828	Response	1	1351246	11849	1
+Emile05_11Test	888	Response	2	1396849	68	1
+Emile05_11Test	949	Response	2	1442474	66	1
+Emile05_11Test	1023	Response	2	1490286	87	1
+Emile05_11Test	1101	Response	2	1538683	26	1
+Emile05_11Test	1149	Response	2	1582254	135	1
+Emile05_11Test	1214	Response	2	1628532	120	1
+Emile05_11Test	1305	Response	2	1679047	13	1
+Emile05_11Test	1366	Response	2	1727223	63	1
+Emile05_11Test	1437	Response	2	1774595	144	1
+Emile05_11Test	1504	Response	2	1821237	159	1
+Emile05_11Test	1506	Quit		1828576	7165	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionApproche.sce",
+   "subject": "Emile05_11Test",
+   "timestamp": "2020/11/05 13:12:19 GMT"
+}

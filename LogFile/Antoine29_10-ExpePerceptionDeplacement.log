@@ -1,0 +1,107 @@
+Scenario - PerceptionDeplacement
+Logfile written - 10/29/2020 14:50:47
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Antoine29_10	1	Response	11	65794	65628	1
+Antoine29_10	1	Response	11	121012	120846	1
+Antoine29_10	1	Response	11	148589	148423	1
+Antoine29_10	1	Response	11	309555	309389	1
+Antoine29_10	1	Response	11	535736	535570	1
+Antoine29_10	1	Response	11	585672	585506	1
+Antoine29_10	1	Response	11	794908	794741	1
+Antoine29_10	2	Response	11	965950	170810	1
+Antoine29_10	3	Response	6	1150962	184805	1
+Antoine29_10	4	Response	1	1192113	40951	1
+Antoine29_10	400	Response	10	1258374	139	1
+Antoine29_10	402	Response	6	1380888	122320	1
+Antoine29_10	403	Response	1	1401141	20013	1
+Antoine29_10	865	Response	10	1478335	125	1
+Antoine29_10	867	Response	4	1580977	102434	1
+Antoine29_10	868	Response	2	1617870	36583	1
+Antoine29_10	1427	Response	10	1711065	58	1
+Antoine29_10	1429	Response	6	1842666	131326	1
+Antoine29_10	1430	Response	1	1862625	19733	1
+Antoine29_10	1632	Response	10	1896504	159	1
+Antoine29_10	1634	Response	8	1979756	83078	1
+Antoine29_10	1635	Response	2	2008121	28016	1
+Antoine29_10	2441	Response	10	2142484	21	1
+Antoine29_10	2443	Response	8	2320053	177257	1
+Antoine29_10	2444	Response	2	2345985	25676	1
+Antoine29_10	3003	Response	10	2439265	60	1
+Antoine29_10	3005	Response	2	2542947	103410	1
+Antoine29_10	3006	Response	4	2571841	28561	1
+Antoine29_10	3326	Response	10	2625235	26	1
+Antoine29_10	3328	Response	8	2693016	67474	1
+Antoine29_10	3329	Response	4	2769370	76054	1
+Antoine29_10	3597	Response	10	2814194	150	1
+Antoine29_10	3599	Response	2	2872609	58231	1
+Antoine29_10	3600	Response	5	2914747	41921	1
+Antoine29_10	3829	Response	10	2952955	32	1
+Antoine29_10	3831	Response	6	3022805	69549	1
+Antoine29_10	3832	Response	5	3039252	16223	1
+Antoine29_10	4277	Response	10	3113493	44	1
+Antoine29_10	4279	Response	2	3177349	63566	1
+Antoine29_10	4280	Response	6	3207574	30014	1
+Antoine29_10	4500	Response	10	3244454	119	1
+Antoine29_10	4502	Response	6	3307092	62424	1
+Antoine29_10	4503	Response	5	3333634	26187	1
+Antoine29_10	4849	Response	10	3391493	119	1
+Antoine29_10	4851	Response	2	3461027	69321	1
+Antoine29_10	4852	Response	5	3485853	24540	1
+Antoine29_10	5014	Response	10	3513002	68	1
+Antoine29_10	5016	Response	4	3591781	78514	1
+Antoine29_10	5017	Response	5	3648599	56567	1
+Antoine29_10	5285	Response	10	3693313	36	1
+Antoine29_10	5287	Response	8	3773453	79843	1
+Antoine29_10	5288	Response	5	3795791	22084	1
+Antoine29_10	5843	Response	10	3888423	149	1
+Antoine29_10	5845	Response	6	4020000	131393	1
+Antoine29_10	5846	Response	2	4037900	17575	1
+Antoine29_10	6098	Response	10	4080002	63	1
+Antoine29_10	6100	Response	2	4183910	103637	1
+Antoine29_10	6101	Response	4	4211650	27468	1
+Antoine29_10	6346	Response	10	4252742	120	1
+Antoine29_10	6348	Response	8	4356892	103937	1
+Antoine29_10	6349	Response	5	4393171	35974	1
+Antoine29_10	6706	Response	10	4452873	92	1
+Antoine29_10	6708	Response	8	4578516	125402	1
+Antoine29_10	6709	Response	4	4601443	22605	1
+Antoine29_10	6988	Response	10	4647983	39	1
+Antoine29_10	6990	Response	2	4726254	77977	1
+Antoine29_10	6991	Response	6	4741382	14840	1
+Antoine29_10	7336	Response	10	4799113	134	1
+Antoine29_10	7338	Response	4	5015813	216501	1
+Antoine29_10	7339	Response	3	5033980	17858	1
+Antoine29_10	7550	Response	10	5069262	19	1
+Antoine29_10	7552	Response	4	5259162	189586	1
+Antoine29_10	7553	Response	2	5273700	14289	1
+Antoine29_10	7912	Response	10	5333571	59	1
+Antoine29_10	7914	Response	6	5403609	69763	1
+Antoine29_10	7915	Response	4	5419677	15726	1
+Antoine29_10	8045	Response	10	5441502	83	1
+Antoine29_10	8047	Response	4	5541716	99964	1
+Antoine29_10	8048	Response	5	5563150	21153	1
+Antoine29_10	8205	Response	10	5589612	156	1
+Antoine29_10	8207	Response	6	5640665	50876	1
+Antoine29_10	8208	Response	5	5676239	35328	1
+Antoine29_10	8480	Response	10	5721691	18	1
+Antoine29_10	8482	Response	4	5883513	161506	1
+Antoine29_10	8483	Response	3	5902276	18411	1
+Antoine29_10	8598	Response	10	5921602	102	1
+Antoine29_10	8600	Quit		6003078	81245	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionDeplacement.sce",
+   "subject": "Antoine29_10",
+   "timestamp": "2020/10/29 13:40:45 GMT"
+}

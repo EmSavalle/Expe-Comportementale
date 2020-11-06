@@ -1,0 +1,89 @@
+trial 1
+6/6 input/expected
+Position1 21_12
+Position2 24_0
+ReactionTime 1932
+Certainty 7
+ReactionTimeCertainty 2196
+Selection 12/21 -0/24 -11/16
+Distance 13
+PositionCorrecte x
+Fin
+trial 2
+8/2 input/expected
+Position1 0_-24
+Position2 0_-14
+ReactionTime 3180
+Certainty 4
+ReactionTimeCertainty 1807
+Selection -24/0 -14/0 -24/6
+Distance 6
+PositionCorrecte v
+Fin
+trial 3
+6/6 input/expected
+Position1 14_0
+Position2 12_-7
+ReactionTime 3856
+Certainty 4
+ReactionTimeCertainty 2631
+Selection -0/14 -7/12 -6/4
+Distance 8
+PositionCorrecte v
+Fin
+trial 4
+8/8 input/expected
+Position1 12_7
+Position2 21_12
+ReactionTime 2757
+Certainty 5
+ReactionTimeCertainty 1871
+Selection 7/12 12/21 8/18
+Distance 5
+PositionCorrecte v
+Fin
+trial 5
+5/2 input/expected
+Position1 0_-41
+Position2 0_-24
+ReactionTime 4797
+Certainty 5
+ReactionTimeCertainty 2431
+Selection -41/0 -24/0 -26/0
+Distance 2
+PositionCorrecte v
+Fin
+trial 6
+8/6 input/expected
+Position1 0_24
+Position2 12_21
+ReactionTime 4560
+Certainty 4
+ReactionTimeCertainty 1559
+Selection 24/0 21/12 24/8
+Distance 5
+PositionCorrecte v
+Fin
+trial 7
+6/8 input/expected
+Position1 12_-7
+Position2 21_-12
+ReactionTime 11302
+Certainty 5
+ReactionTimeCertainty 3501
+Selection -7/12 -12/21 -18/14
+Distance 9
+PositionCorrecte v
+Fin
+trial 8
+8/6 input/expected
+Position1 21_-12
+Position2 12_-21
+ReactionTime 1744
+Certainty 4
+ReactionTimeCertainty 1643
+Selection -12/21 -21/12 -26/8
+Distance 6
+PositionCorrecte v
+Fin
+trial 9

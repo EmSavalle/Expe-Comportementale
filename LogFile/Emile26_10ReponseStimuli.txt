@@ -1,0 +1,40 @@
+trial 1
+4/4 input/expected
+Position1 12_7
+Position2 7_12
+ReactionTime 1942
+Certainty 8
+ReactionTimeCertainty 1260
+Selection 7/12 12/7 9/14
+Distance 2
+PositionCorrecte v
+Fin
+trial 2
+6/6 input/expected
+Position1 0_24
+Position2 12_21
+ReactionTime 342
+Certainty 6
+ReactionTimeCertainty 1016
+Selection 24/0 21/12 14/11
+Distance 7
+PositionCorrecte v
+Fin
+trial 3
+4/4 input/expected
+Position1 12_21
+Position2 0_24
+ReactionTime 3173
+Certainty 8
+ReactionTimeCertainty 1356
+Selection 21/12 24/0 16/8
+Distance 6
+PositionCorrecte v
+Fin
+trial 4
+6/6 input/expected
+Position1 0_41
+Position2 21_36
+ReactionTime 3911
+Certainty 8
+ReactionTimeCertainty 402
