@@ -333,7 +333,7 @@ if(preparation) then
 	double deltaAtt = 0.025;
 	double att = 0.7;
 	double attFinale = 0;
-	int nombreRepetCalib = 2;
+	int nombreRepetCalib = 3;
 	int rep = 0;
 	loop until rep == nombreRepetCalib
 	begin
@@ -377,11 +377,11 @@ if(preparation) then
 	#Rep
 
 
-	attFinale = attFinale/((rep+1)*2);
+	attFinale = attFinale/((rep)*2);
 	#Calcul atténuation finale
 	#L'atténuation déterminé est la moyenne des deux attenuations détérminé par l'appuie de la touche [Entrée] par l'utilisateur auquel on soustrait 0.2
 	ofileCalib.print("AttenuationFinale "+string(attFinale));
-	deltaAtt = 0.2;
+	deltaAtt = 0.3;
 	attFinale = attFinale-deltaAtt;
 	if((attFinale <=0))then
 		attFinale = 0;
