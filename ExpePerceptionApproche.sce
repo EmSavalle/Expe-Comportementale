@@ -106,7 +106,7 @@ text {
 }ecranFin;
 
 text {
-	caption ="v";
+	caption ="";
 	font_color = 0,0,0;
 } pos;
 
@@ -316,7 +316,7 @@ int count = response_manager.total_response_count( 11 );
 int countClic = response_manager.total_response_count( 10 );
 bool preparation = true; 
 bool presentation = true; 
-bool debugSouris = true;
+bool debugSouris = false;
 bool emotionel = false;
 if(emotionel) then
 	picPosition.set_part(1, qE);
