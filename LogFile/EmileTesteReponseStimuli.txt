@@ -1,5 +1,0 @@
-trial 1
-6/8 input/expected
-Position1 0_5
-Position2 0_10
-ReactionTime 17337
