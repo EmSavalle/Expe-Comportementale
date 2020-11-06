@@ -88,15 +88,6 @@
 <asn>
 <sid>-2</sid>
 </asn>
-<asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
-</asn>
-<asn>
-<sid>-2</sid>
-</asn>
 </ssa>
 </man>
 </exparam>
@@ -110,9 +101,6 @@
 <ftp>
 <ccc>0</ccc>
 <do_upload>
-<sce>1</sce>
-<sce>1</sce>
-<sce>1</sce>
 <sce>1</sce>
 </do_upload>
 <host></host>
@@ -385,6 +373,11 @@
 <device>
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
+<name>USB Audio Device</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
 <name>Intel(R) HID Event Filter</name>
 </device>
 <device>
@@ -436,11 +429,6 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Intel(R) HID Event Filter 8</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>USB Audio Device</name>
 </device>
 <device>
 <device_type>4</device_type>
@@ -843,150 +831,6 @@
 </mse>
 <overrides></overrides>
 <sfn>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\ExpePerceptionApproche.sce</sfn>
-</sce>
-<sce>
-<abd>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>1 (PAVE NUM.) (up)</ibn>
-<ibn>2 (PAVE NUM.) (up)</ibn>
-<ibn>3 (PAVE NUM.) (up)</ibn>
-<ibn>4 (PAVE NUM.) (up)</ibn>
-<ibn>5 (PAVE NUM.) (up)</ibn>
-<ibn>6 (PAVE NUM.) (up)</ibn>
-<ibn>7 (PAVE NUM.) (up)</ibn>
-<ibn>8 (PAVE NUM.) (up)</ibn>
-<ibn>9 (PAVE NUM.) (up)</ibn>
-<ibn>ENTREE (up)</ibn>
-<idn>Clavier</idn>
-<index>0</index>
-<index>1</index>
-<index>2</index>
-<index>3</index>
-<index>4</index>
-<index>5</index>
-<index>6</index>
-<index>7</index>
-<index>8</index>
-<index>10</index>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<offset>2147483727</offset>
-<offset>2147483728</offset>
-<offset>2147483729</offset>
-<offset>2147483723</offset>
-<offset>2147483724</offset>
-<offset>2147483725</offset>
-<offset>2147483719</offset>
-<offset>2147483720</offset>
-<offset>2147483721</offset>
-<offset>2147483676</offset>
-</abd>
-<abd>
-<device_type>2</device_type>
-<dx_device_type>18</dx_device_type>
-<ibn>Bouton 0 (up)</ibn>
-<idn>Souris</idn>
-<index>9</index>
-<label></label>
-<offset>2147483660</offset>
-</abd>
-<mse>
-<device_type>2</device_type>
-<dx_device_type>18</dx_device_type>
-<name>Souris</name>
-</mse>
-<overrides></overrides>
-<sfn>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\ExpePerceptionDeplacement.sce</sfn>
-</sce>
-<sce>
-<abd>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>1 (PAVE NUM.) (up)</ibn>
-<ibn>2 (PAVE NUM.) (up)</ibn>
-<ibn>3 (PAVE NUM.) (up)</ibn>
-<ibn>4 (PAVE NUM.) (up)</ibn>
-<ibn>5 (PAVE NUM.) (up)</ibn>
-<ibn>6 (PAVE NUM.) (up)</ibn>
-<ibn>7 (PAVE NUM.) (up)</ibn>
-<ibn>8 (PAVE NUM.) (up)</ibn>
-<ibn>9 (PAVE NUM.) (up)</ibn>
-<ibn>ENTREE (up)</ibn>
-<idn>Clavier</idn>
-<index>0</index>
-<index>1</index>
-<index>2</index>
-<index>3</index>
-<index>4</index>
-<index>5</index>
-<index>6</index>
-<index>7</index>
-<index>8</index>
-<index>10</index>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<label></label>
-<offset>2147483727</offset>
-<offset>2147483728</offset>
-<offset>2147483729</offset>
-<offset>2147483723</offset>
-<offset>2147483724</offset>
-<offset>2147483725</offset>
-<offset>2147483719</offset>
-<offset>2147483720</offset>
-<offset>2147483721</offset>
-<offset>2147483676</offset>
-</abd>
-<abd>
-<device_type>2</device_type>
-<dx_device_type>18</dx_device_type>
-<ibn>Bouton 0 (up)</ibn>
-<idn>Souris</idn>
-<index>9</index>
-<label></label>
-<offset>2147483660</offset>
-</abd>
-<mse>
-<device_type>2</device_type>
-<dx_device_type>18</dx_device_type>
-<name>Souris</name>
-</mse>
-<overrides></overrides>
-<sfn>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\ExpePerceptionDeplacementContinu.sce</sfn>
-</sce>
-<sce>
-<idv>
-<device_type>3</device_type>
-<dx_device_type>19</dx_device_type>
-<ibn>ENTREE (up)</ibn>
-<idn>Clavier</idn>
-<index>0</index>
-<label></label>
-<offset>2147483676</offset>
-</idv>
-<mse>
-<device_type>2</device_type>
-<dx_device_type>18</dx_device_type>
-<name>Souris</name>
-</mse>
-<overrides></overrides>
-<sfn>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\audioCalibration.sce</sfn>
 </sce>
 <sct>
 <capture_device>
