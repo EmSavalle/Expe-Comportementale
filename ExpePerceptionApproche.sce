@@ -116,7 +116,8 @@ text {
 	font_size = 40;
 } textPos;
 #-------------- Schéma réponse -----------
-
+bitmap { filename = "Preparation/im4Emotionnelle.png";} prepQuestionEmotionnelle;
+bitmap { filename = "Preparation/im4.png";} prepQuestion;
 bitmap { filename = "picMovementText4.png";} b4;
 bitmap { filename = "picMovementText.png";} b8;
 bitmap { filename = "Question.png";} qN;
@@ -135,8 +136,6 @@ picture {
 	x = 0; y = 0;
 	text pos;
 	x = 0; y = -300;
-	text textPos;
-	x = 0 ; y = 400;
 }picPosition;
 #-------------- Trials -------------------
 #Trial préparation
@@ -167,7 +166,12 @@ trial{
 	duration = response;
 	
 	
-	picture{	bitmap { filename = "Preparation/im4.png";};x = 0 ; y = 0;};
+	picture{	
+		bitmap { 
+			filename = "Preparation/im4.png";
+		};
+	x = 0 ; y = 0;
+	}picPreparationQuestion;
 	deltat = 0;
 	duration = response;
 	
@@ -317,11 +321,13 @@ int countClic = response_manager.total_response_count( 10 );
 bool preparation = true; 
 bool presentation = true; 
 bool debugSouris = false;
-bool emotionel = false;
+bool emotionel = true;
 if(emotionel) then
 	picPosition.set_part(1, qE);
+	picPreparationQuestion.set_part(1, prepQuestionEmotionnelle);
 else
 	picPosition.set_part(1, qN);
+	picPreparationQuestion.set_part(1, prepQuestion);
 end;
 #Calibration du niveau de son
 if(preparation) then
@@ -393,8 +399,8 @@ if(preparation) then
 		s=s+1;
 	end;
 
-	te.set_caption(string(att)+"\nAppuyez sur [Entrée]",true);
-	trialDebCalib.present();
+	#te.set_caption(string(att)+"\nAppuyez sur [Entrée]",true);
+	#trialDebCalib.present();
 end;
 		
 array <int>  mouvements[212][2] = {{5,11},{13,7},{27,26},{12,18},{18,11},{27,28},{21,28},{20,21},{25,18},{28,34},{19,27},{4,3},{26,34},{15,22},{7,13},{18,19},{12,5},{30,22},{23,16},{28,27},{15,23},{35,28},{10,18},{26,32},{24,32},{35,27},{31,32},{12,11},{11,18},{25,26},{1,8},{5,13},{32,33},{10,2},{17,10},{2,9},{16,15},{34,26},{33,34},{11,5},{5,12},{10,11},{11,17},{8,15},{18,17},{15,8},{9,16},{8,16},{19,18},{15,16},{17,16},{22,29},{12,6},{23,31},{16,23},{20,19},{8,2},{33,25},{30,29},{13,5},{6,14},{10,4},{11,4},{25,31},{24,17},{14,6},{34,33},{16,17},{20,13},{24,30},{11,3},{18,26},{11,10},{25,19},{4,11},{1,2},{20,28},{27,19},{28,35},{30,31},{23,30},{34,28},{23,15},{11,19},{24,31},{23,29},{16,24},{20,12},{23,24},{21,27},{9,3},{6,7},{22,15},{12,19},{23,17},{13,21},{27,21},{9,2},{2,8},{15,9},{22,23},{27,33},{3,2},{2,10},{16,10},{27,20},{12,4},{7,14},{25,33},{8,1},{17,11},{27,34},{2,1},{3,4},{17,23},{31,25},{2,3},{29,22},{13,20},{26,19},{9,1},{14,21},{24,23},{21,13},{33,27},{10,3},{35,34},{3,10},{13,14},{27,35},{26,33},{16,8},{1,9},{19,20},{22,30},{19,13},{4,10},{29,23},{9,10},{7,6},{18,12},{28,20},{8,9},{24,18},{5,6},{32,24},{6,13},{9,8},{3,11},{20,14},{21,20},{17,18},{18,25},{12,13},{17,9},{34,27},{30,24},{10,9},{20,27},{32,26},{18,24},{14,13},{26,27},{4,12},{13,6},{11,12},{33,26},{19,11},{28,21},{26,20},{13,12},{3,9},{31,24},{22,16},{29,30},{9,15},{12,20},{25,17},{10,17},{14,20},{32,31},{24,25},{9,17},{10,16},{17,25},{23,22},{32,25},{34,35},{19,12},{17,24},{21,14},{25,24},{19,26},{33,32},{24,16},{16,9},{26,18},{30,23},{4,5},{25,32},{5,4},{14,7},{6,12},{31,23},{13,19},{18,10},{20,26},{31,30},{19,25},{26,25},{16,22},{6,5}};
@@ -442,6 +448,8 @@ if(presentation) then
 		
 	
 		#Début trial position
+		
+		countClic = response_manager.total_response_count( 10 );
 		trialPosition.present();	
 		#Boucle jusqu'à ce que l'utilisateur clique sur l'image
 		loop bool wait = false until wait == true begin
