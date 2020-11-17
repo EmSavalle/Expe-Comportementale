@@ -141,8 +141,9 @@ picture {
 #Trial préparation
 trial{
 	picture{	bitmap { filename = "Preparation/im1.png";};x = 0 ; y = 0;};
-	time = 0;
+	time = 0;	
 	duration = response;
+	
 	
 	picture{bitmap { filename = "Preparation/im2.png";};x = 0 ; y = 0;};
 	deltat = 0;
@@ -301,6 +302,23 @@ trial{
 		deltat = 10;
 	};
 }trialPrep;
+#Trial pause 
+
+trial{
+	stimulus_event{
+		picture{
+			text{
+				caption = "Pause\nPrenez un moment pour souffler, boire,... avant de reprendre \nAppuyez sur [Entrée] pour reprendre l'expérience";
+				font_color = 0,0,0;
+				font_size = 40;
+			}tPause;
+			x = 0 ; y = 0 ;
+		};
+		response_active = true;
+		duration = response;
+		deltat = 10;
+	};
+}trialPause;
 #Trial question de confiance
 trial {
 	stimulus_event{
@@ -407,6 +425,7 @@ array <int>  mouvements[212][2] = {{5,11},{13,7},{27,26},{12,18},{18,11},{27,28}
 array <int> idsMvm[212] = {9,1,6,9,2,4,8,4,2,9,7,6,7,8,9,4,2,3,2,6,7,2,7,9,7,3,4,6,8,4,8,7,4,3,2,8,6,3,4,1,8,4,9,8,6,2,8,7,6,4,6,8,1,7,8,6,1,3,6,3,7,1,2,9,2,3,6,4,2,9,3,7,6,1,8,4,7,3,8,4,8,1,3,7,8,9,7,3,4,9,1,4,2,8,1,7,1,2,9,1,4,9,6,7,1,2,3,8,7,2,1,8,6,4,9,1,4,2,8,2,3,8,6,3,1,2,6,8,4,7,8,3,7,4,7,1,9,1,4,6,1,3,4,1,4,3,8,6,7,1,6,4,8,4,3,2,1,6,8,1,9,6,4,7,2,4,2,3,2,1,6,9,2,1,4,9,7,3,8,9,6,4,7,9,7,6,2,4,2,8,2,6,8,6,3,2,3,2,4,8,6,2,9,3,9,3,9,6,9,6,9,6};
 array <int> positions[35][2] = {{0,-5},{3,-4},{4,-2},{5,0},{4,2},{3,4},{0,5},{0,-8},{4,-7},{7,-4},{8,0},{7,4},{4,7},{0,8},{0,-14},{7,-12},{12,-7},{14,0},{12,7},{7,12},{0,14},{0,-24},{12,-21},{21,-12},{24,0},{21,12},{12,21},{0,24},{0,-41},{21,-36},{36,-20},{41,0},{36,20},{21,36},{0,41}};
 double posMax = 41;
+int nbMvm = 212;
 #Ouverture du fichier log pour les résultats
 output_file ofile1 = new output_file;
 string nameFile = logfile.subject()+"ReponseStimuli";
@@ -494,6 +513,7 @@ countClic = response_manager.total_response_count( 10 );
 #Itération sur les différents mouvements/positions
 loop int i = 1 until i > mouvements.count()
 begin
+	
 	if(i%10 == 0)then
 		trialConfiance.present();
 		#Récupération des réponses du sujet a la question de confiance
@@ -502,6 +522,9 @@ begin
 		button_response=response_manager.last_response();
 		ofile1.print("Certainty "+string(button_response)+"\n");
 		ofile1.print("ReactionTimeCertainty "+string(last.reaction_time())+"\n"); 
+	end;
+	if(i%70 == 0 && i != 0) then
+		trialPause.present();
 	end;
 	ecranEtape.set_caption("Etape "+string(i)+"/"+string(mouvements.count()));
 	ecranEtape.redraw();

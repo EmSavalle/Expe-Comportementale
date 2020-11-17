@@ -1,0 +1,42 @@
+Scenario - PerceptionDeplacement
+Logfile written - 11/17/2020 12:16:37
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Emile17_11Test	1	Response	11	11963	11897	1
+Emile17_11Test	2	Response	11	23260	6486	1
+Emile17_11Test	3	Response	11	31541	4499	1
+Emile17_11Test	4	Response	11	38597	6951	1
+Emile17_11Test	5	Response	11	46949	5252	1
+Emile17_11Test	6	Response	11	52570	5437	1
+Emile17_11Test	7	Response	11	62237	5054	1
+Emile17_11Test	8	Response	11	67196	4910	1
+Emile17_11Test	9	Response	11	77508	5172	1
+Emile17_11Test	10	Response	11	81992	4387	1
+Emile17_11Test	11	Response	11	92747	5091	1
+Emile17_11Test	12	Response	11	97460	4535	1
+Emile17_11Test	13	Response	11	107900	4923	1
+Emile17_11Test	14	Response	11	123959	15721	1
+Emile17_11Test	14	Response	11	134168	25930	1
+Emile17_11Test	14	Response	11	143231	34993	1
+Emile17_11Test	14	Response	11	161193	52955	1
+Emile17_11Test	14	Response	11	178520	70282	1
+Emile17_11Test	15	Response	11	193057	14214	1
+Emile17_11Test	892	Response	10	375659	154	1
+Emile17_11Test	992	Response	10	430156	32	1
+Emile17_11Test	1196	Quit		499462	64	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionApproche.sce",
+   "subject": "Emile17_11Test",
+   "timestamp": "2020/11/17 11:15:44 GMT"
+}
