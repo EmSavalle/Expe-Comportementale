@@ -523,7 +523,7 @@ begin
 		ofile1.print("Certainty "+string(button_response)+"\n");
 		ofile1.print("ReactionTimeCertainty "+string(last.reaction_time())+"\n"); 
 	end;
-	if(i%70 == 0 && i != 0) then
+	if(i%(mouvements.count()/4) == 0 && i != 0) then
 		trialPause.present();
 	end;
 	ecranEtape.set_caption("Etape "+string(i)+"/"+string(mouvements.count()));
