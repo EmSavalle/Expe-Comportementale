@@ -339,7 +339,7 @@ int countClic = response_manager.total_response_count( 10 );
 bool preparation = true; 
 bool presentation = true; 
 bool debugSouris = false;
-bool emotionel = true;
+bool emotionel = false;
 if(emotionel) then
 	picPosition.set_part(1, qE);
 	picPreparationQuestion.set_part(1, prepQuestionEmotionnelle);
