@@ -370,7 +370,7 @@ if(preparation) then
 			sCalib.set_attenuation(att);
 			t.set_caption("Phase ascendante\nAppuyez sur [Entrée] dès que vous entendez un son",true);
 			trialCalib.present();
-			if(att == 0 || count != response_manager.total_response_count( 11 ))then
+			if(att <= 0 || count != response_manager.total_response_count( 11 ))then
 				endL = true;
 			end;
 		end;
@@ -429,6 +429,9 @@ int nbMvm = 212;
 #Ouverture du fichier log pour les résultats
 output_file ofile1 = new output_file;
 string nameFile = logfile.subject()+"ReponseStimuli";
+if(emotionel)then
+	nameFile = nameFile+"Emotionnel";
+end;
 string nameFileTest = nameFile;
 int cptname = 1;
 loop until !file_exists(logfile_directory +nameFileTest+".txt") begin
