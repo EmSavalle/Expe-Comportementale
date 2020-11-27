@@ -516,7 +516,7 @@ countClic = response_manager.total_response_count( 10 );
 #Itération sur les différents mouvements/positions
 loop int i = 1 until i > mouvements.count()
 begin
-	if(i%(mouvements.count()/4) == 0 && i != 0) then
+	if(i%(mouvements.count()/4) == 0 && i != 0 && i < mouvements.count() -5) then
 		trialConfiance.present();
 		#Récupération des réponses du sujet a la question de confiance
 		int button_response=response_manager.last_response();	
