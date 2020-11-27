@@ -1,7 +1,0 @@
-AttenuationApparition 0.675
-AttenuationDisparition 0.025
-AttenuationApparition 0.675
-AttenuationDisparition 0.025
-AttenuationApparition 0.675
-AttenuationDisparition 0.025
-AttenuationFinale 0.35
