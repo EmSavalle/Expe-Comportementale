@@ -1,0 +1,25 @@
+Scenario - PerceptionDeplacement
+Logfile written - 12/14/2020 14:53:42
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Test	1	Response	11	7096	6696	1
+Test	2	Response	11	13835	6509	1
+Test	2	Response	11	23383	16056	1
+Test	38	Response	10	48872	81	1
+Test	40	Quit		52394	3270	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionApproche.sce",
+   "subject": "Test",
+   "timestamp": "2020/12/14 13:53:31 GMT"
+}

@@ -122,6 +122,8 @@ bitmap { filename = "picMovementText4.png";} b4;
 bitmap { filename = "picMovementText.png";} b8;
 bitmap { filename = "Question.png";} qN;
 bitmap { filename = "QuestionEmotionnelle.png";} qE;
+bitmap { filename = "Preparation/changementQuestionMouvement.png";} cqN;
+bitmap { filename = "Preparation/changementQuestionEmotionnelle.png";} cqE;
 picture {
 	bitmap { filename = "Question.png";};
 	x = 0; y = 0;
@@ -137,7 +139,35 @@ picture {
 	text pos;
 	x = 0; y = -300;
 }picPosition;
+picture {
+	bitmap {filename = "Preparation/changementQuestionEmotionnelle.png";};
+	x = 0; y = 0;
+}picChangementQuestion;
 #-------------- Trials -------------------
+#Trial séléction de mode initial
+trial{
+	stimulus_event{
+		picture{
+			text{
+				caption = "Type d'expérience :\n1 : Mouvement\n2 : Emotionnel\n3 : Mixe";
+				font_color = 0,0,0;
+				font_size = 40;
+			};
+			x = 0 ; y = 0 ;
+		};
+		response_active = true;
+		duration = response;
+		deltat = 10;
+	};
+}trialSelection;
+trial{
+	stimulus_event{
+		picture picChangementQuestion;
+		response_active = true;
+		duration = response;
+		deltat = 10;
+	};
+}trialChangementQuestion;
 #Trial préparation
 trial{
 	picture{	bitmap { filename = "Preparation/im1.png";};x = 0 ; y = 0;};
@@ -334,13 +364,30 @@ trial {
 }trialConfiance;
 #------------------- Début du code ---------------------------
 begin_pcl;
-set_system_volume(1,1);
-int count = response_manager.total_response_count( 11 );
-int countClic = response_manager.total_response_count( 10 );
-bool preparation = true; 
-bool presentation = true; 
+bool preparation = false; 
+bool presentation = false; 
 bool debugSouris = false;
 bool emotionel = false;
+trialSelection.present();
+int button_response_type=response_manager.last_response();	
+stimulus_data last_type = stimulus_manager.last_stimulus_data();   
+button_response_type=response_manager.last_response();
+int experimentType = button_response_type;
+if(experimentType == 1) then
+	emotionel = false;
+end;
+if(experimentType == 2) then
+	emotionel = true;
+end;
+if(experimentType == 3) then
+	if(random()>0.5) then
+		experimentType = 4; #On commence par les questions emotionnelles
+		emotionel = true;
+	else
+		experimentType = 3; #On commence par les questions mouvements
+		emotionel = false;
+	end;
+end;
 if(emotionel) then
 	picPosition.set_part(1, qE);
 	picPreparationQuestion.set_part(1, prepQuestionEmotionnelle);
@@ -348,6 +395,9 @@ else
 	picPosition.set_part(1, qN);
 	picPreparationQuestion.set_part(1, prepQuestion);
 end;
+
+int count = response_manager.total_response_count( 11 );
+int countClic = response_manager.total_response_count( 10 );
 #Calibration du niveau de son
 if(preparation) then
 	output_file ofileCalib = new output_file;
@@ -427,8 +477,8 @@ else
 		s=s+1;
 	end;
 end;
-		
-array <int>  mouvements[212][2] = {{18,24},{16,8},{32,26},{18,25},{24,30},{27,20},{16,24},{28,34},{17,11},{11,10},{26,32},{11,4},{33,27},{9,2},{12,18},{14,13},{23,15},{14,7},{29,23},{3,11},{6,13},{23,29},{7,6},{23,16},{22,30},{33,26},{9,3},{35,34},{16,9},{12,4},{34,35},{12,6},{17,9},{21,20},{15,23},{19,18},{24,32},{21,28},{26,34},{9,10},{13,5},{34,27},{26,20},{17,25},{19,25},{11,3},{15,9},{24,23},{22,15},{3,2},{18,12},{9,1},{30,31},{2,10},{32,25},{8,16},{27,34},{5,6},{10,2},{35,28},{10,16},{24,25},{11,17},{14,21},{23,22},{4,11},{14,6},{5,13},{30,29},{20,21},{9,8},{27,35},{6,12},{18,17},{20,28},{32,24},{9,17},{15,8},{12,13},{16,23},{29,22},{10,9},{25,19},{28,35},{27,26},{18,10},{27,33},{21,14},{20,27},{19,13},{17,10},{21,13},{13,19},{6,7},{24,16},{28,27},{11,18},{31,25},{12,19},{20,13},{21,27},{31,24},{29,30},{16,22},{8,9},{1,9},{7,13},{16,15},{24,31},{17,23},{10,18},{30,22},{26,33},{13,6},{7,14},{13,21},{23,24},{28,21},{34,26},{25,26},{23,30},{5,4},{2,8},{19,20},{6,14},{23,17},{27,19},{25,31},{18,11},{16,10},{26,25},{10,3},{4,10},{2,9},{26,18},{5,12},{8,2},{5,11},{8,15},{20,26},{33,25},{2,3},{9,16},{33,34},{3,9},{10,4},{23,31},{26,27},{31,23},{19,12},{9,15},{26,19},{32,31},{11,19},{14,20},{8,1},{17,18},{15,22},{34,33},{32,33},{11,5},{20,19},{10,11},{25,18},{34,28},{10,17},{31,30},{3,4},{22,29},{19,11},{11,12},{33,32},{13,20},{27,21},{4,5},{13,7},{25,33},{35,27},{22,16},{15,16},{4,12},{30,23},{12,20},{30,24},{25,17},{3,10},{28,20},{24,17},{17,24},{13,12},{12,5},{22,23},{6,5},{19,26},{12,11},{1,8},{20,14},{19,27},{16,17},{24,18},{31,32},{20,12},{18,26},{2,1},{25,32},{27,28},{4,3},{13,14},{17,16},{18,19},{25,24},{1,2}};
+
+array <int>  mouvements[10][2] = {{18,24},{16,8},{32,26},{18,25},{24,30},{27,20},{16,24},{28,34},{17,11},{11,10},{26,32},{11,4},{33,27},{9,2},{12,18},{14,13},{23,15},{14,7},{29,23},{3,11},{6,13},{23,29},{7,6},{23,16},{22,30},{33,26},{9,3},{35,34},{16,9},{12,4},{34,35},{12,6},{17,9},{21,20},{15,23},{19,18},{24,32},{21,28},{26,34},{9,10},{13,5},{34,27},{26,20},{17,25},{19,25},{11,3},{15,9},{24,23},{22,15},{3,2},{18,12},{9,1},{30,31},{2,10},{32,25},{8,16},{27,34},{5,6},{10,2},{35,28},{10,16},{24,25},{11,17},{14,21},{23,22},{4,11},{14,6},{5,13},{30,29},{20,21},{9,8},{27,35},{6,12},{18,17},{20,28},{32,24},{9,17},{15,8},{12,13},{16,23},{29,22},{10,9},{25,19},{28,35},{27,26},{18,10},{27,33},{21,14},{20,27},{19,13},{17,10},{21,13},{13,19},{6,7},{24,16},{28,27},{11,18},{31,25},{12,19},{20,13},{21,27},{31,24},{29,30},{16,22},{8,9},{1,9},{7,13},{16,15},{24,31},{17,23},{10,18},{30,22},{26,33},{13,6},{7,14},{13,21},{23,24},{28,21},{34,26},{25,26},{23,30},{5,4},{2,8},{19,20},{6,14},{23,17},{27,19},{25,31},{18,11},{16,10},{26,25},{10,3},{4,10},{2,9},{26,18},{5,12},{8,2},{5,11},{8,15},{20,26},{33,25},{2,3},{9,16},{33,34},{3,9},{10,4},{23,31},{26,27},{31,23},{19,12},{9,15},{26,19},{32,31},{11,19},{14,20},{8,1},{17,18},{15,22},{34,33},{32,33},{11,5},{20,19},{10,11},{25,18},{34,28},{10,17},{31,30},{3,4},{22,29},{19,11},{11,12},{33,32},{13,20},{27,21},{4,5},{13,7},{25,33},{35,27},{22,16},{15,16},{4,12},{30,23},{12,20},{30,24},{25,17},{3,10},{28,20},{24,17},{17,24},{13,12},{12,5},{22,23},{6,5},{19,26},{12,11},{1,8},{20,14},{19,27},{16,17},{24,18},{31,32},{20,12},{18,26},{2,1},{25,32},{27,28},{4,3},{13,14},{17,16},{18,19},{25,24},{1,2}};
 array <int> idsMvm[212] = {9,3,1,8,9,2,7,9,1,6,9,2,1,2,9,6,3,2,1,7,8,9,6,2,7,2,1,6,2,3,4,1,3,6,7,6,7,8,7,4,3,2,1,7,9,3,1,6,2,6,1,3,4,7,2,7,8,4,3,2,9,4,9,8,6,8,3,7,6,4,6,7,9,6,7,3,7,2,4,8,2,6,1,8,6,3,9,2,8,1,2,3,9,4,3,6,8,1,8,2,9,2,4,9,4,7,9,6,8,9,7,3,8,2,8,7,4,2,3,4,8,6,9,4,7,1,3,9,2,1,6,2,9,8,3,8,1,9,8,9,3,4,8,4,9,1,7,4,3,2,9,2,6,7,9,2,4,8,6,4,1,6,4,2,1,8,6,4,8,3,4,6,8,1,4,1,7,3,1,4,7,2,7,1,3,8,3,2,8,6,2,4,6,8,6,8,1,7,4,1,4,3,7,6,8,4,6,4,6,4,6,4};
 array <int> positions[35][2] = {{0,-5},{3,-4},{4,-2},{5,0},{4,2},{3,4},{0,5},{0,-8},{4,-7},{7,-4},{8,0},{7,4},{4,7},{0,8},{0,-14},{7,-12},{12,-7},{14,0},{12,7},{7,12},{0,14},{0,-24},{12,-21},{21,-12},{24,0},{21,12},{12,21},{0,24},{0,-41},{21,-36},{36,-20},{41,0},{36,20},{21,36},{0,41}};
 double posMax = 41;
@@ -521,18 +571,9 @@ trialPrep.present();
 countClic = response_manager.total_response_count( 10 );
 
 #Itération sur les différents mouvements/positions
+bool switched = false;
 loop int i = 1 until i > mouvements.count()
 begin
-	if(i%(mouvements.count()/4) == 0 && i != 0 && i < mouvements.count() -5) then
-		trialConfiance.present();
-		#Récupération des réponses du sujet a la question de confiance
-		int button_response=response_manager.last_response();	
-		stimulus_data last = stimulus_manager.last_stimulus_data();   
-		button_response=response_manager.last_response();
-		ofile1.print("Certainty "+string(button_response)+"\n");
-		ofile1.print("ReactionTimeCertainty "+string(last.reaction_time())+"\n"); 
-		trialPause.present();
-	end;
 	ecranEtape.set_caption("Etape "+string(i)+"/"+string(mouvements.count()));
 	ecranEtape.redraw();
 	ofile1.print("trial "+string(i)+"\n");
@@ -595,4 +636,44 @@ begin
 	stimulus_data last = stimulus_manager.last_stimulus_data();
 	ofile1.print("ReactionTime "+string(clicTime)+"\n"); 
 	ofile1.print("Fin"+"\n");
+	
+	if(i%(mouvements.count()/4) == 0 && i != 0 && i < mouvements.count() -5) then
+		trialConfiance.present();
+		#Récupération des réponses du sujet a la question de confiance
+		button_response=response_manager.last_response();	
+		last = stimulus_manager.last_stimulus_data();   
+		button_response=response_manager.last_response();
+		ofile1.print("Certainty "+string(button_response)+"\n");
+		ofile1.print("ReactionTimeCertainty "+string(last.reaction_time())+"\n"); 
+		trialPause.present();
+		
+	end;
+	if(i%(mouvements.count()/2) == 0 && experimentType >= 3 && switched == false) then
+			switched = true;
+			if(experimentType == 3) then
+				picPosition.set_part(1, qE);
+				picPreparationQuestion.set_part(1, prepQuestionEmotionnelle);
+				picChangementQuestion.set_part(1, cqE);
+				emotionel = true;
+			else
+				picPosition.set_part(1, qN);
+				picPreparationQuestion.set_part(1, prepQuestion);
+				picChangementQuestion.set_part(1, cqN);
+			end;
+			ofile1.close();
+			ofile1 = new output_file;
+			nameFile = logfile.subject()+"ReponseStimuli";
+			if(emotionel)then
+				nameFile = nameFile+"Emotionnel";
+			end;
+			nameFileTest = nameFile;
+			cptname = 1;
+			loop until !file_exists(logfile_directory +nameFileTest+".txt") begin
+				nameFileTest = nameFile+string(cptname);
+				cptname=cptname+1;
+			end;
+			ofile1.open(nameFileTest+".txt" , true );
+			
+			trialChangementQuestion.present();
+		end;
 end;
