@@ -158,7 +158,25 @@
 <out_encrypt_key></out_encrypt_key>
 <pi_list></pi_list>
 <plat>1</plat>
-<port_devices></port_devices>
+<port_devices>
+<device>
+<parameters>
+<cts>0</cts>
+<dsrin>0</dsrin>
+<dsrout>0</dsrout>
+<dtr>disable</dtr>
+<rts>disable</rts>
+<set_fifo>1</set_fifo>
+<spd></spd>
+<spp></spp>
+<spr></spr>
+<sps></sps>
+</parameters>
+<piai>COM5</piai>
+<pian>Serial Port</pian>
+<pihpn>COM5</pihpn>
+</device>
+</port_devices>
 <rdl>
 <device>
 <abs_axis>
@@ -407,6 +425,11 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Intel(R) HID Event Filter 8</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>USB Audio Device</name>
 </device>
 <device>
 <device_type>4</device_type>
@@ -743,6 +766,15 @@
 <ibn>8 (PAVE NUM.) (up)</ibn>
 <ibn>9 (PAVE NUM.) (up)</ibn>
 <ibn>ENTREE (up)</ibn>
+<ibn>1 (up)</ibn>
+<ibn>2 (up)</ibn>
+<ibn>3 (up)</ibn>
+<ibn>4 (up)</ibn>
+<ibn>5 (up)</ibn>
+<ibn>6 (up)</ibn>
+<ibn>7 (up)</ibn>
+<ibn>8 (up)</ibn>
+<ibn>9 (up)</ibn>
 <idn>Clavier</idn>
 <index>0</index>
 <index>1</index>
@@ -754,6 +786,24 @@
 <index>7</index>
 <index>8</index>
 <index>10</index>
+<index>11</index>
+<index>12</index>
+<index>13</index>
+<index>14</index>
+<index>15</index>
+<index>16</index>
+<index>17</index>
+<index>18</index>
+<index>19</index>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
 <label></label>
 <label></label>
 <label></label>
@@ -774,6 +824,15 @@
 <offset>2147483720</offset>
 <offset>2147483721</offset>
 <offset>2147483676</offset>
+<offset>2147483650</offset>
+<offset>2147483651</offset>
+<offset>2147483652</offset>
+<offset>2147483653</offset>
+<offset>2147483654</offset>
+<offset>2147483655</offset>
+<offset>2147483656</offset>
+<offset>2147483657</offset>
+<offset>2147483658</offset>
 </abd>
 <abd>
 <device_type>2</device_type>
@@ -806,6 +865,15 @@
 <ibn>8 (PAVE NUM.) (up)</ibn>
 <ibn>9 (PAVE NUM.) (up)</ibn>
 <ibn>ENTREE (up)</ibn>
+<ibn>1 (up)</ibn>
+<ibn>2 (up)</ibn>
+<ibn>3 (up)</ibn>
+<ibn>4 (up)</ibn>
+<ibn>5 (up)</ibn>
+<ibn>6 (up)</ibn>
+<ibn>7 (up)</ibn>
+<ibn>8 (up)</ibn>
+<ibn>9 (up)</ibn>
 <idn>Clavier</idn>
 <index>0</index>
 <index>1</index>
@@ -817,6 +885,24 @@
 <index>7</index>
 <index>8</index>
 <index>10</index>
+<index>11</index>
+<index>12</index>
+<index>13</index>
+<index>14</index>
+<index>15</index>
+<index>16</index>
+<index>17</index>
+<index>18</index>
+<index>19</index>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
+<label></label>
 <label></label>
 <label></label>
 <label></label>
@@ -837,6 +923,15 @@
 <offset>2147483720</offset>
 <offset>2147483721</offset>
 <offset>2147483676</offset>
+<offset>2147483650</offset>
+<offset>2147483651</offset>
+<offset>2147483652</offset>
+<offset>2147483653</offset>
+<offset>2147483654</offset>
+<offset>2147483655</offset>
+<offset>2147483656</offset>
+<offset>2147483657</offset>
+<offset>2147483658</offset>
 </abd>
 <abd>
 <device_type>2</device_type>

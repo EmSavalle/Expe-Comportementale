@@ -1,6 +1,6 @@
 scenario = "PerceptionDeplacement";
-active_buttons = 11;
-button_codes = 1,2,3,4,5,6,7,8,9,10,11;
+active_buttons =20;
+button_codes = 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;
 response_matching = simple_matching;
 default_background_color = 255,255,255;
 
@@ -138,6 +138,22 @@ picture {
 	x = 0; y = -300;
 }picPosition;
 #-------------- Trials -------------------
+#Trial choix type expé
+trial{
+	stimulus_event{
+		picture{
+			text{
+				caption = "Choisissez le type d'experience :\n 1 : Réaction au mouvement\n 2 : Réaction émotionnelle";
+				font_color = 0,0,0;
+				font_size = 40;
+			};
+			x = 0 ; y = 0 ;
+		};
+		response_active = true;
+		duration = response;
+		deltat = 10;
+	};
+}trialChoix;
 #Trial préparation
 trial{
 	picture{	bitmap { filename = "Preparation/im1.png";};x = 0 ; y = 0;};
@@ -341,6 +357,15 @@ bool preparation = true;
 bool presentation = true; 
 bool debugSouris = false;
 bool emotionel = false;
+
+trialChoix.present();
+int br=response_manager.last_response();	 
+if(br == 2 || br == 13)then
+	emotionel = true;
+else
+	emotionel = false;
+end;
+
 if(emotionel) then
 	picPosition.set_part(1, qE);
 	picPreparationQuestion.set_part(1, prepQuestionEmotionnelle);
@@ -514,6 +539,7 @@ if(presentation) then
 		########
 	end;
 end;
+
 tPrep.set_caption("L'expérience va pouvoir commencer!\n Appuyez sur [Entrée] pour débuter",true);
 trialPrep.present();
 
@@ -529,6 +555,9 @@ begin
 		int button_response=response_manager.last_response();	
 		stimulus_data last = stimulus_manager.last_stimulus_data();   
 		button_response=response_manager.last_response();
+		if(button_response > 10) then
+			button_response = button_response - 11;
+		end;
 		ofile1.print("Certainty "+string(button_response)+"\n");
 		ofile1.print("ReactionTimeCertainty "+string(last.reaction_time())+"\n"); 
 		trialPause.present();
