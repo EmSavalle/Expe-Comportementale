@@ -1,0 +1,26 @@
+Scenario - PerceptionDeplacement
+Logfile written - 12/26/2020 12:20:39
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Sophie	1	Response	2	15085	14852	1
+Sophie	2	Response	11	48852	33633	1
+Sophie	20	Response	11	224509	5374	1
+Sophie	21	Response	11	255327	26128	1
+Sophie	24	Response	11	277605	2156	1
+Sophie	25	Quit		303230	17746	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionApproche.sce",
+   "subject": "Sophie",
+   "timestamp": "2020/12/26 11:20:06 GMT"
+}

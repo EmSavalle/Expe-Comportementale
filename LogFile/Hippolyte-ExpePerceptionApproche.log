@@ -1,0 +1,26 @@
+Scenario - PerceptionDeplacement
+Logfile written - 12/26/2020 18:21:09
+
+Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+Hippolyte	1	Response	2	25043	24810	1
+Hippolyte	2	Response	11	567633	542422	1
+Hippolyte	20	Response	11	746364	8507	1
+Hippolyte	21	Response	11	782839	34926	1
+Hippolyte	22	Response	11	790769	7773	1
+Hippolyte	23	Quit		859382	66342	NA
+
+
+{
+   "app": "Presentation Version 22.0 Build 05.10.20",
+   "device": "Dell Inc. G5 5590",
+   "experiment": "{511FFCDC-2E1A-453A-8288-A45BB0DEC473}",
+   "os": "Windows 10 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "ExpePerceptionApproche.sce",
+   "subject": "Hippolyte",
+   "timestamp": "2020/12/26 17:19:40 GMT"
+}

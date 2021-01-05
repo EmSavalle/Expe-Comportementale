@@ -136,7 +136,7 @@
 <pien>0</pien>
 <set_def_file>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\ExperienceFiabilité.sdf</set_def_file>
 <stimulus_list>0</stimulus_list>
-<subject_id>Test</subject_id>
+<subject_id>TestEmile</subject_id>
 <subject_id_pol>2</subject_id_pol>
 <video_list>0</video_list>
 <warnings>1</warnings>
@@ -425,11 +425,6 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Intel(R) HID Event Filter 8</name>
-</device>
-<device>
-<device_type>4</device_type>
-<dx_device_type>17</dx_device_type>
-<name>USB Audio Device</name>
 </device>
 <device>
 <device_type>4</device_type>

@@ -4,7 +4,6 @@ Avant de commencer, voici quelques instructions a respecter :
 - Installez vous dans une pièce isolée, ou du moins sans bruits parasites
 - Utilisez un casque audio ou des écouteurs, en mettant les niveaux de son de votre ordinateur et du casque au maximum
 	(une calibration du volume sera efféctué au demarrage)
-- 
 - Il faut avoir la dernière version de Présentation installée
 
 Pour lancer l'experience, lancez le fichier "ExperienceFiabilité.exp"

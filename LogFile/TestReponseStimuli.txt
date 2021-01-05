@@ -1,8 +1,0 @@
-trial 1
-Position1 14_0
-Position2 21_-12
-Mouvement 9
-Reponse 0
-ReactionTime 616
-Fin
-trial 2

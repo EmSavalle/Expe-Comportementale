@@ -1,13 +1,12 @@
 Scenario - PerceptionDeplacement
-Logfile written - 12/14/2020 14:53:42
+Logfile written - 12/26/2020 12:19:57
 
 Subject	Trial	Event Type	Code	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
 
-Test	1	Response	11	7096	6696	1
-Test	2	Response	11	13835	6509	1
-Test	2	Response	11	23383	16056	1
-Test	38	Response	10	48872	81	1
-Test	40	Quit		52394	3270	NA
+Sophie	1	Response	2	34540	34307	1
+Sophie	2	Response	11	788355	753652	1
+Sophie	7	Response	11	830639	1606	1
+Sophie	8	Quit		940326	101160	NA
 
 
 {
@@ -20,6 +19,6 @@ Test	40	Quit		52394	3270	NA
       "configuration": "Default configuration"
    },
    "scenario": "ExpePerceptionApproche.sce",
-   "subject": "Test",
-   "timestamp": "2020/12/14 13:53:31 GMT"
+   "subject": "Sophie",
+   "timestamp": "2020/12/26 11:18:20 GMT"
 }
