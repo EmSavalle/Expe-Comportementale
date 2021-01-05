@@ -397,7 +397,7 @@ trial 56
 Position1 7_12
 Position2 12_7
 Mouvement 6
-Reponse -14
+Reponse -1
 ReactionTime 783
 Fin
 trial 57

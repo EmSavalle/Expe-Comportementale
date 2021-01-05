@@ -353,8 +353,8 @@ begin_pcl;
 set_system_volume(1,1);
 int count = response_manager.total_response_count( 11 );
 int countClic = response_manager.total_response_count( 10 );
-bool preparation = false; 
-bool presentation = false; 
+bool preparation = true; 
+bool presentation = true; 
 bool debugSouris = false;
 bool emotionel = false;
 
