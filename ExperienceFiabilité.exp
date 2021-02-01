@@ -136,7 +136,7 @@
 <pien>0</pien>
 <set_def_file>D:\Dev\Stage - Logiciel final\Présentation\Experience Fiabilité\ExperienceFiabilité.sdf</set_def_file>
 <stimulus_list>0</stimulus_list>
-<subject_id>TestEmile</subject_id>
+<subject_id>Adele</subject_id>
 <subject_id_pol>2</subject_id_pol>
 <video_list>0</video_list>
 <warnings>1</warnings>
@@ -231,6 +231,48 @@
 <name>HID Keyboard Device</name>
 </device>
 <device>
+<abs_axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>X-axis</name>
+<saturation>1</saturation>
+</abs_axis>
+<abs_axis>
+<dead_zone>0</dead_zone>
+<max>1000</max>
+<min>-1000</min>
+<name>Y-axis</name>
+<saturation>1</saturation>
+</abs_axis>
+<axis>
+<max>1000</max>
+<min>-1000</min>
+<name>X-axis</name>
+<restricted>1</restricted>
+<scale>1</scale>
+</axis>
+<axis>
+<max>1000</max>
+<min>-1000</min>
+<name>Y-axis</name>
+<restricted>1</restricted>
+<scale>1</scale>
+</axis>
+<axis>
+<max>1000</max>
+<min>-1000</min>
+<name>Wheel</name>
+<restricted>1</restricted>
+<scale>1</scale>
+</axis>
+<device_type>2</device_type>
+<dx_device_type>0</dx_device_type>
+<max_raw_pos>65535</max_raw_pos>
+<min_raw_pos>0</min_raw_pos>
+<name>HID-compliant mouse</name>
+</device>
+<device>
 <device_type>3</device_type>
 <dx_device_type>0</dx_device_type>
 <name>HID Keyboard Device 1</name>
@@ -239,6 +281,11 @@
 <device_type>3</device_type>
 <dx_device_type>0</dx_device_type>
 <name>HID Keyboard Device 2</name>
+</device>
+<device>
+<device_type>3</device_type>
+<dx_device_type>0</dx_device_type>
+<name>HID Keyboard Device 3</name>
 </device>
 <device>
 <device_type>3</device_type>
@@ -327,7 +374,7 @@
 <dx_device_type>0</dx_device_type>
 <max_raw_pos>65535</max_raw_pos>
 <min_raw_pos>0</min_raw_pos>
-<name>HID-compliant mouse</name>
+<name>HID-compliant mouse 1</name>
 </device>
 <device>
 <abs_axis>
@@ -369,7 +416,7 @@
 <dx_device_type>0</dx_device_type>
 <max_raw_pos>65535</max_raw_pos>
 <min_raw_pos>0</min_raw_pos>
-<name>HID-compliant mouse 1</name>
+<name>HID-compliant mouse 2</name>
 </device>
 <device>
 <device_type>4</device_type>
@@ -435,6 +482,16 @@
 <device_type>4</device_type>
 <dx_device_type>17</dx_device_type>
 <name>Intel(R) HID Event Filter 9</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>USB Receiver</name>
+</device>
+<device>
+<device_type>4</device_type>
+<dx_device_type>17</dx_device_type>
+<name>USB Receiver 1</name>
 </device>
 <device>
 <axis>

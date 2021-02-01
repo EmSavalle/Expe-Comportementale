@@ -1,0 +1,15 @@
+trial 1
+Position1 12_21
+Position2 12_7
+Mouvement 3
+Reponse -3
+ReactionTime 1865
+Fin
+trial 2
+Position1 0_-5
+Position2 0_-8
+Mouvement 8
+Reponse 3
+ReactionTime 950
+Fin
+trial 3

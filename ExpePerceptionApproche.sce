@@ -120,8 +120,8 @@ bitmap { filename = "Preparation/im4Emotionnelle.png";} prepQuestionEmotionnelle
 bitmap { filename = "Preparation/im4.png";} prepQuestion;
 bitmap { filename = "picMovementText4.png";} b4;
 bitmap { filename = "picMovementText.png";} b8;
-bitmap { filename = "Question.png";} qN;
-bitmap { filename = "QuestionEmotionnelle.png";} qE;
+bitmap { filename = "Preparation/Question.png";} qN;
+bitmap { filename = "Preparation/QuestionEmotionnelle.png";} qE;
 picture {
 	bitmap { filename = "Question.png";};
 	x = 0; y = 0;
@@ -292,7 +292,7 @@ trial{
 	stimulus_event{
 		picture{
 			text{
-				caption = "Nous allons calibrer l'experience en fonctions de vos capacitées auditives\nConcentrez vous sur ce que vous entendez et suivez les instructions\nAppuyez sur [Entrée] pour commencer la calibration";
+				caption = "Nous allons calibrer l'experience en fonction de vos capacitées auditives\nConcentrez vous sur ce que vous entendez et suivez les instructions\nAppuyez sur [Entrée] pour commencer la calibration";
 				font_color = 0,0,0;
 				font_size = 40;
 			}te;
